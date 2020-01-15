@@ -1,4 +1,5 @@
 FROM openjdk:8
 ADD target/docker-spring-boot.jar docker-spring-boot.jar
-EXPOSE 8075
+VOLUME /tmp
+EXPOSE 8098
 ENTRYPOINT ["java","-jar","docker-spring-boot.jar"]

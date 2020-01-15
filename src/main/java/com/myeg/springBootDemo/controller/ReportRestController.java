@@ -7,11 +7,10 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-
-public class StockMasterRestController {
+@RestController
+public class ReportRestController {
 	
-	//adding controller
-	@GetMapping("/addSm")
+	@GetMapping("/reportRestController")
 	public ResponseEntity<List<StockMasterDto>> addsm(){
 		//adding 
 		List<StockMasterDto> lt = new ArrayList<StockMasterDto>();
@@ -26,6 +25,5 @@ public class StockMasterRestController {
 	
 		return ResponseEntity.ok().body(lt);
 	}
-	
 
 }
