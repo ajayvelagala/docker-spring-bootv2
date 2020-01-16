@@ -6,7 +6,7 @@
 	<groupId>com.myeg</groupId>
 	<artifactId>springBootDemo</artifactId>
 	
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 
 	<name>springBootDemo</name>
 	<description>Demo project for Spring Boot</description>
