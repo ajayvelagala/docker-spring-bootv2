@@ -13,6 +13,7 @@ public class ReportRestController {
 	@GetMapping("/reportRestController")
 	public ResponseEntity<List<StockMasterDto>> addsm(){
 		//adding 
+		System.out.println("reportRestController1");
 		List<StockMasterDto> lt = new ArrayList<StockMasterDto>();
 		
 		StockMasterDto st =new StockMasterDto("1", "Ajay", "2000");
