@@ -21,11 +21,15 @@ public class LoginRestController {
 		StockMasterDto st =new StockMasterDto("1", "Ajay", "2000");
 		StockMasterDto st1 =new StockMasterDto("2", "Vijay", "2000");  
 		StockMasterDto st2=new StockMasterDto("3", "Sanjay", "2000");
+		StockMasterDto st3=new StockMasterDto("3", "Veeru", "2000");
 		
 		lt.add(st);
 		lt.add(st2);
 		lt.add(st1);
+		lt.add(st3);
 	
+		System.out.println("StockMasterDto:"+lt.toString());
+		
 		return ResponseEntity.ok().body(lt);
 	}
 

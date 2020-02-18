@@ -6,7 +6,9 @@ public class StockMasterDto {
 	private String  name;
 	private String sal;
 	
-    
+    public StockMasterDto() {
+		// TODO Auto-generated constructor stub
+	}
 	
 	public StockMasterDto(String id, String name, String sal) {
 		super();
@@ -32,6 +34,12 @@ public class StockMasterDto {
 	public void setSal(String sal) {
 		this.sal = sal;
 	}
+
+	@Override
+	public String toString() {
+		return "StockMasterDto [id=" + id + ", name=" + name + ", sal=" + sal + "]";
+	}
+	
 	
 	
 	
