@@ -23,6 +23,7 @@ public class LoginRestController {
 		StockMasterDto st2=new StockMasterDto("3", "Sanjay", "2000");
 		StockMasterDto st3=new StockMasterDto("4", "Veeru", "2000");
 		StockMasterDto st4=new StockMasterDto("5", "user2", "2000");
+		StockMasterDto st5=new StockMasterDto("10", "user10", "2000");
 		
 		lt.add(st);
 		lt.add(st2);
