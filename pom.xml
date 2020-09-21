@@ -5,7 +5,7 @@
 
 	<groupId>com.myeg</groupId>
 	<artifactId>springBootDemo</artifactId>
-	
+	<version>1.0.1.RELEASE</version>
 	<packaging>war</packaging>
 
 	<name>springBootDemo</name>
