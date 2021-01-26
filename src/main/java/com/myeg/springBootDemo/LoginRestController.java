@@ -33,7 +33,9 @@ public class LoginRestController {
 		StockMasterDto s7=new StockMasterDto("11", "user11", "2000");
 		// added one more user to list
 		StockMasterDto s10=new StockMasterDto("11", "user11", "2000");
-
+	    //adding 11 th user	
+		StockMasterDto s11=new StockMasterDto("11", "user11", "2000");
+        
 		
 		lt.add(st);
 		lt.add(st2);
