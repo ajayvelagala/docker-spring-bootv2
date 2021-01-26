@@ -24,14 +24,22 @@ public class LoginRestController {
 		StockMasterDto st3=new StockMasterDto("4", "Veeru", "2000");
 		StockMasterDto st4=new StockMasterDto("5", "user2", "2000");
 		StockMasterDto st5=new StockMasterDto("10", "user10", "2000");
+
 		// added another user in branch
 		StockMasterDto st9=new StockMasterDto("10", "user10", "2000");
+
+		StockMasterDto st6=new StockMasterDto("11", "user11", "2000");
+		//added a new user
+		StockMasterDto s7=new StockMasterDto("11", "user11", "2000");
+
 		
 		lt.add(st);
 		lt.add(st2);
 		lt.add(st1);
 		lt.add(st3);
 		lt.add(st4);
+		lt.add(st5);	
+		lt.add(st6);
 	
 		System.out.println("StockMasterDto:"+lt.toString());
 		
